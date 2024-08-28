@@ -2961,7 +2961,7 @@ class PE:
             self.__data__.close()
             del self.__data__
         # Run a full garbage collection to find unreachable objects and free them.
-        gc.collect()
+        # gc.collect()
 
     def close(self):
         self._close_data()
